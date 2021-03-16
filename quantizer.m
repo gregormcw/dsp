@@ -1,6 +1,8 @@
 function y = quantizer(x, bitRes)
 % Wuantization function: takes input x and outputs bit-limited signal y 
 % of resolution bitRes
+% --------------------------
+% Gregor McWilliam
 
 close all
 clc

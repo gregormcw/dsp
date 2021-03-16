@@ -1,6 +1,8 @@
 function [y, fs] = dynChorus(x, dlyCoeff, dlyRange, lfoFreq)
 % Takes as input title of audio file, returns output filtered with dynamic 
 % chorus effect. Incorporates fractional delay via linear interpolation
+% --------------------------
+% Gregor McWilliam
 
 close all
 clc
