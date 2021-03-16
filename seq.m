@@ -54,12 +54,12 @@ end
 end
 
 function kick = kick(fs, f0, dur, ovr, play)
-% kick - Helper function for q2.m
+% kick - Helper function
 % -------------------------
 % Combines sine waves, noise, filters, and decay to synthesize the sound 
 % of a kick drum
 % -------------------------
-% Gregor McWilliam -- gbm5862
+% Gregor McWilliam
 
 
 % Generate initial sine wave with desired f0, fs, and duration
@@ -96,13 +96,13 @@ end
 end
 
 function hiHat = hiHat(fs, pb, dur, play)
-% hiHat - Helper function for q2.m
+% hiHat - Helper function
 % -------------------------
 % Combines noise, a highpass filter, and decay to synthesize the sound of 
 % a hi-hat, snare, or any other instrument whose timbre can be approximated
 % with random noise
 % -------------------------
-% Gregor McWilliam -- gbm5862
+% Gregor McWilliam
 
 
 % Generate initial noise [-1, 1]
@@ -129,12 +129,12 @@ end
 end
 
 function bass = bass(fs, f0, dur, ovr, play)
-% bass - Helper function for q2.m
+% bass - Helper function
 % -------------------------
 % Combines sine waves, noise, filters, and decay to synthesize the sound 
 % of a bass instrument
 % -------------------------
-% Gregor McWilliam -- gbm5862
+% Gregor McWilliam
 
 
 % fs = 44100;
@@ -178,14 +178,13 @@ end
 end
 
 function snare = snare(fs, pb, dur, play)
-% snare - Helper function for q2.m
+% snare - Helper function
 % -------------------------
 % Combines noise, a passband filter, and decay to synthesize the sound of 
 % a snare, hi-hat, or any other instrument whose timbre can be approximated
 % with random noise
 % -------------------------
-% Gregor McWilliam -- gbm5862
-
+% Gregor McWilliam
 
 % Generate initial noise [-1, 1]
 noise = 2 .* rand(floor(fs*dur), 1) - 1;
